@@ -1,12 +1,12 @@
 (function($) {
     $('.menu_bar i').on('click', function() {
         $('.menu_item').animate({
-            'right' : '0'
+            'opacity' : '1'
         });
     });
     $('.menu_item .close').on('click', function() {
         $('.menu_item').animate({
-            'right' : '-100%'
+            'opacity' : '0'
         });
     });
 }) (jQuery);

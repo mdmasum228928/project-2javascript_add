@@ -21,7 +21,9 @@
         line-height: 30px;
         width: 50%;
         top: 113px;
-        right: -100%;
+        right: 0;
+        opacity: 0;
+        transition: all linear .3s;
         overflow-x: hidden;
     }
     .menu_item ul{
@@ -189,7 +191,9 @@
         line-height: 30px;
         width: 50%;
         top: 113px;
-        right: -100%;
+        right: 0;
+        opacity: 0;
+        transition: all linear .3s;
         overflow-x: hidden;
     }
     .menu_item ul{
@@ -354,7 +358,9 @@
         line-height: 30px;
         width: 50%;
         top: 113px;
-        right: -100%;
+        right: 0;
+        opacity: 0;
+        transition: all linear .3s;
         overflow-x: hidden;
     }
     .menu_item ul{
