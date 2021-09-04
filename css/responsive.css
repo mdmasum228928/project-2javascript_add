@@ -1,0 +1,632 @@
+
+@media (min-width: 0) and (max-width: 575.98px) { 
+    .menu_bar{
+        display: block;
+        position: relative;
+    }
+    .menu_item .close{
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+    }
+    .menu_item .close i{
+        color: #fff;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .menu_item{
+        display: block;
+        position: absolute;
+        height: auto;
+        line-height: 30px;
+        width: 50%;
+        top: 113px;
+        right: -100%;
+        overflow-x: hidden;
+    }
+    .menu_item ul{
+        display: block;
+        background-color: #000;
+    }
+    .menu_item a{
+        margin-right: 0px;
+        border-bottom: 1px solid #fff;
+        padding: 0 15px;
+    }
+    .banner_area{
+        margin-left: 100px;
+    }
+    .banner_area h2{
+        font-size: 20px;
+    }
+    .banner_area h1{
+        font-size: 30px;
+    }
+    .banner_area p{
+        font-size: 10px;
+    }
+    .banner_area .banner_btn a{
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    /* banner area ends */
+    #about{
+        padding: 59px 0;
+    }
+    .about_area{
+        padding-top: 39px;
+    }
+    .about_img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .about_img img{
+        width: 100%;
+    }
+    .about_text{
+        width: 100%;
+    }
+    .about_text p{
+        font-size: 11px;
+    }
+    .about_text p:first-of-type{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* about area ends */
+    /* service_area starts */
+    #service{
+        padding-bottom: 59px;
+    }
+    .service_area{
+        grid-template-columns: 1fr;
+    }
+    .single_service{
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+    .single_service:last-of-type{
+        margin-bottom: 0;
+    }
+    
+    /* service_area ends */
+    /* portfoli area starts */
+    /* portfoli area starts */
+    .single_portfolio{
+        width: 42.1%;
+        margin-right: 20px;
+    }
+    .portfolio_overlay{
+        left: -100%;
+    }
+    /* portfoli area ends */
+    /* portfoli area ends */
+        /* team area starts */
+        .team_member{
+            display: block;
+        }
+        .single_team{
+            margin-right: 0px;
+            width: 100%;
+        }
+    
+    /* team area ends *//* testimonials area starts */
+    .testimonials_area{
+        display: block;
+    }
+    .single_test{
+        width: 100%;
+        margin-right: 0;
+    }
+    .single_test:last-of-type{
+        margin-top: 20px;
+    }
+    /* footer area starts */
+    #footer{
+        background-color: #353535;
+    }
+    .foot_border{
+        border-bottom: 1px solid #ffffff;
+    }
+    .footer_area{
+        display: block;
+    }
+    .first_footer{
+        width: 100%;
+        padding-top: 22px;
+    }
+    .second_footer{
+        width: 100%;
+    }
+    .third_footer{
+        width: 100%;
+    }
+    .four_footer{
+        width: 100%;
+    }
+    .third_all{
+        display: flex;
+        justify-content: start;
+    }
+    .four_img{
+        display:flex;
+        flex-wrap: wrap;
+        padding-bottom: 5px;
+    }
+    .third_left a:hover,
+    .third_right a:hover{
+        color: #5bc5f4;
+        margin-left: 5px;
+    }
+
+/* footer area ends */
+
+    /* testimonials area ends */
+ }
+/* ================================ */
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .menu_bar{
+        display: block;
+        position: relative;
+    }
+    .menu_item .close{
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+    }
+    .menu_item .close i{
+        color: #fff;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .menu_item{
+        display: block;
+        position: absolute;
+        height: auto;
+        line-height: 30px;
+        width: 50%;
+        top: 113px;
+        right: -100%;
+        overflow-x: hidden;
+    }
+    .menu_item ul{
+        display: block;
+        background-color: #000;
+    }
+    .menu_item a{
+        margin-right: 0px;
+        border-bottom: 1px solid #fff;
+        padding: 0 15px;
+    }
+    .banner_area{
+        margin-left: 100px;
+    }
+    .banner_area h2{
+        font-size: 20px;
+    }
+    .banner_area h1{
+        font-size: 30px;
+    }
+    .banner_area p{
+        font-size: 10px;
+        margin-left: 200px;
+    }
+    .banner_area .banner_btn a{
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    /* banner area ends */
+    #about{
+        padding: 59px 0;
+    }
+    .about_area{
+        padding-top: 39px;
+    }
+    .about_img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .about_img img{
+        width: 100%;
+    }
+    .about_text{
+        width: 100%;
+    }
+    .about_text p{
+        font-size: 11px;
+    }
+    .about_text p:first-of-type{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* about area ends */
+    /* service_area starts */
+    #service{
+        padding-bottom: 59px;
+    }
+    .service_area{
+        grid-template-columns: 1fr;
+    }
+    .single_service{
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+    .single_service:last-of-type{
+        margin-bottom: 0;
+    }
+    
+    /* service_area ends */
+    /* portfoli area starts */
+    .single_portfolio{
+        width: 45%;
+        margin-right: 20px;
+    }
+    .portfolio_overlay{
+        left: -100%;
+    }
+    /* portfoli area ends */
+        /* team area starts */
+        .single_team{
+            width: 45.6%;
+        }
+    /* team area ends */
+    /* testimonials area starts */
+    .testimonials_area{
+        display: block;
+    }
+    .single_test{
+        width: 100%;
+        margin-right: 0;
+    }
+    .single_test:last-of-type{
+        margin-top: 20px;
+    }
+      /* testimonials area ends */
+    /* footer area starts */
+    #footer{
+        background-color: #353535;
+    }
+    .foot_border{
+        border-bottom: 1px solid #ffffff;
+    }
+    .footer_area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first_footer{
+        padding-top: 22px;
+        width: 46%;
+    }
+    .second_footer{
+        width: 43%;
+        margin-left: 30px;
+    }
+    .third_footer{
+        width: 34%;
+    }
+    .four_footer{
+        width: 57%;
+    }
+    .four_img img{
+        width: 27.33%;
+    }
+    .third_all{
+        display: flex;
+        justify-content: start;
+    }
+    .four_img{
+        display:flex;
+        flex-wrap: wrap;
+        padding-bottom: 5px;
+    }
+    .third_left a:hover,
+    .third_right a:hover{
+        color: #5bc5f4;
+        margin-left: 5px;
+    }
+
+    /* footer area ends */
+
+ }
+/* =============================  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu_bar{
+        display: block;
+        position: relative;
+    }
+    .menu_item .close{
+        display: flex;
+        justify-content: flex-end;
+        border: none;
+    }
+    .menu_item .close i{
+        color: #fff;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .menu_item{
+        display: block;
+        position: absolute;
+        height: auto;
+        line-height: 30px;
+        width: 50%;
+        top: 113px;
+        right: -100%;
+        overflow-x: hidden;
+    }
+    .menu_item ul{
+        display: block;
+        background-color: #000;
+        overflow-x: hidden;
+    }
+    .menu_item a{
+        margin-right: 0px;
+        border-bottom: 1px solid #fff;
+        padding: 0 15px;
+    }
+    .banner_area{
+        margin-left: 100px;
+    }
+    .banner_area h2{
+        font-size: 20px;
+    }
+    .banner_area h1{
+        font-size: 30px;
+    }
+    .banner_area p{
+        font-size: 10px;
+        margin-left: 200px;
+    }
+    .banner_area .banner_btn a{
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    /* banner area ends */
+    #about{
+        padding: 59px 0;
+    }
+    .about_area{
+        padding-top: 39px;
+    }
+    .about_img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .about_img img{
+        width: 100%;
+    }
+    .about_text{
+        width: 100%;
+    }
+    .about_text p{
+        font-size: 11px;
+    }
+    .about_text p:first-of-type{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* about area ends */
+    /* service_area starts */
+    #service{
+        padding-bottom: 59px;
+    }
+    .service_area{
+        grid-template-columns: 1fr;
+    }
+    .single_service{
+        margin-right: 0;
+        margin-bottom: 80px;
+    }
+    .single_service:last-of-type{
+        margin-bottom: 0;
+    }
+    
+    /* service_area ends */
+    /* portfoli area starts */
+    .single_portfolio{
+        width: 46.7%;
+        margin-right: 20px;
+    }
+    .pro_small img{
+        width: 100%;
+    }
+    .pro_big img{
+        width: 100%;
+    }
+    .portfolio_overlay{
+        left: -100%;
+    }
+    /* portfoli area ends */
+        /* team area starts */
+    .single_team{
+        width: 46.7%;
+    }
+    
+    /* team area ends */
+    /* testimonials area starts */
+    .testimonials_area{
+        display: flex;
+    }
+    .single_test{
+        width: 47%;
+        margin-right: 20px;
+    }
+      /* testimonials area ends */
+    /* footer area starts */
+    #footer{
+        background-color: #353535;
+    }
+    .foot_border{
+        border-bottom: 1px solid #ffffff;
+    }
+    .footer_area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first_footer{
+        padding-top: 22px;
+        width: 46%;
+    }
+    .second_footer{
+        width: 45%;
+        margin-left: 30px;
+    }
+    .third_footer{
+        width: 35%;
+    }
+    .four_footer{
+        width: 58%;
+    }
+    .third_all{
+        display: flex;
+        justify-content: start;
+    }
+    .four_img{
+        display:flex;
+        flex-wrap: wrap;
+        padding-bottom: 5px;
+    }
+    .third_left a:hover,
+    .third_right a:hover{
+        color: #5bc5f4;
+        margin-left: 5px;
+    }
+
+/* footer area ends */
+}
+/* ============================ */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_area{
+        margin-left: 100px;
+    }
+    .banner_area h2{
+        font-size: 20px;
+    }
+    .banner_area h1{
+        font-size: 30px;
+    }
+    .banner_area p{
+        font-size: 10px;
+        margin-left: 350px;
+    }
+    .banner_area .banner_btn a{
+        padding: 8px 15px;
+        font-size: 10px;
+    }
+    /* banner area ends */
+    #about{
+        padding: 59px 0;
+    }
+    .about_area{
+        padding-top: 39px;
+    }
+    .about_img{
+        width: 40%;
+        margin-left: 0;
+    }
+    .about_img img{
+        width: 100%;
+    }
+    .about_text{
+        width: 50%;
+        margin-left: 5%;
+    }
+    .about_text p:first-of-type{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* about area ends */
+    /* service_area starts */
+    #service{
+        padding-bottom: 59px;
+    }
+    .service_area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .single_service{
+        width: 47%;
+    }
+    .single_service:last-of-type{
+        margin: 0 auto;
+        width: 60%;
+    }
+    .single_service{
+        margin-right: 20px;
+        margin-bottom: 80px;
+    }
+    .single_service:last-of-type{
+        margin-bottom: 0;
+    }
+    
+    /* service_area ends */
+    /* portfoli area starts */
+    .single_portfolio{
+        width: 22.4%;
+        margin-right: 20px;
+    }
+    .portfolio_overlay{
+        left: -100%;
+    }
+    /* portfoli area ends */
+        /* team area starts */
+        .single_team{
+            width: 46.7%;
+        }
+    
+    /* team area ends */
+    /* testimonials area starts */
+    .testimonials_area{
+        display: flex;
+    }
+    .single_test{
+        width: 47%;
+        margin-right: 20px;
+    }
+      /* testimonials area ends */
+    /* footer area starts */
+    #footer{
+        background-color: #353535;
+    }
+    .foot_border{
+        border-bottom: 1px solid #ffffff;
+    }
+    .footer_area{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .first_footer{
+        padding-top: 22px;
+        width: 46%;
+    }
+    .second_footer{
+        width: 45%;
+        margin-left: 30px;
+    }
+    .third_footer{
+        width: 35%;
+    }
+    .four_footer{
+        width: 58%;
+    }
+    .third_all{
+        display: flex;
+        justify-content: start;
+    }
+    .four_img{
+        display:flex;
+        flex-wrap: wrap;
+        padding-bottom: 5px;
+    }
+    .third_left a:hover,
+    .third_right a:hover{
+        color: #5bc5f4;
+        margin-left: 5px;
+    }
+
+    /* footer area ends */
+}
+/* ================================ */
